@@ -92,9 +92,9 @@ address {
 .header-menu-list {
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
 .header-menu-item {
-  padding: 24px 0;
 }
 .header-menu-link {
   color: var(--NAVY-BLUE, #2e2f42);
@@ -308,7 +308,7 @@ address {
 }
 .container-portfolio-progect-name {
   padding: 32px 16px;
-   border: 1px solid #e7e9fc;
+  border: 1px solid #e7e9fc;
   border: none;
 }
 /** =============================================================== */
