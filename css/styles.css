@@ -68,7 +68,6 @@ address {
 .header-container {
   display: flex;
   align-items: center;
-  padding: 24px 0;
 }
 .header-navigation {
   display: flex;
@@ -97,6 +96,7 @@ address {
   gap: 40px;
 }
 .header-menu-item {
+  padding: 24px 0;
 }
 .header-menu-link {
   color: var(--NAVY-BLUE, #2e2f42);
@@ -288,9 +288,10 @@ address {
 .portfolio-item {
   background: var(--WHITE, #fff);
   width: calc((100% - 24px * 2) / 3);
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 .portfolio-photo {
-  margin-bottom: 32px;
 }
 .portfolio-progect-name {
   color: var(--NAVY-BLUE, #2e2f42);
@@ -310,8 +311,6 @@ address {
 }
 .container-portfolio-progect-name {
   padding: 32px 16px;
-  border: 1px solid var(--CORNFLOWER, #e7e9fc);
-  border: none;
 }
 /** =============================================================== */
 
