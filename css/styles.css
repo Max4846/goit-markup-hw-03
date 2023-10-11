@@ -96,7 +96,6 @@ address {
   gap: 40px;
 }
 .header-menu-item {
-  padding: 24px 0;
 }
 .header-menu-link {
   color: var(--NAVY-BLUE, #2e2f42);
@@ -104,6 +103,7 @@ address {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 .header-menu-link:hover,
 .header-menu-link:focus {
@@ -288,8 +288,6 @@ address {
 .portfolio-item {
   background: var(--WHITE, #fff);
   width: calc((100% - 24px * 2) / 3);
-  border: 1px solid #e7e9fc;
-  border-top: none;
 }
 .portfolio-photo {
 }
@@ -311,6 +309,8 @@ address {
 }
 .container-portfolio-progect-name {
   padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 /** =============================================================== */
 
