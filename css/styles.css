@@ -73,6 +73,7 @@ address {
   flex-grow: 1;
   gap: 76px;
   margin-right: auto;
+  padding: 24px 0;
 }
 
 .header-logo {
@@ -92,7 +93,6 @@ address {
 .header-menu-list {
   display: flex;
   gap: 40px;
-  padding: 24px 0;
 }
 .header-menu-item {
 }
@@ -297,6 +297,8 @@ address {
   line-height: 1.2;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
+  border: 1px solid #e7e9fc;
+  border: none;
 }
 .portfolio-progect {
   color: var(--SLATE, #434455);
@@ -308,8 +310,6 @@ address {
 }
 .container-portfolio-progect-name {
   padding: 32px 16px;
-  border: 1px solid #e7e9fc;
-  border: none;
 }
 /** =============================================================== */
 
