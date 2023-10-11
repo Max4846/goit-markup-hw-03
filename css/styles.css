@@ -42,24 +42,17 @@ address {
   margin: 0 auto;
   outline: 2px solid red;
 }
-.visually-hidden {
-  margin: -1px;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
+
 /* ========================================================== */
 
 /*! =========================HEADER============================= */
 
 .header {
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding: 24px 0;
   background: var(--WHITE, #fff);
+  border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
 }
 .header-container {
-  border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
   display: flex;
   align-items: center;
 }
@@ -80,6 +73,7 @@ address {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   align-items: center;
+  margin-right: 76px;
 }
 .header-logo-black {
   color: var(--NAVY-BLUE, #2e2f42);
@@ -127,11 +121,10 @@ address {
 /** =========================HERO============================= */
 
 .hero {
+  padding: 188px 0;
 }
 .hero-container {
   background-color: var(--NAVY-BLUE, #2e2f42);
-  padding-top: 188px;
-  padding-bottom: 188px;
 }
 .hero-title {
   color: var(--WHITE, #fff);
@@ -159,6 +152,7 @@ address {
   align-items: center;
   display: block;
   border: none;
+  min-width: 169px;
 }
 .hero-btn:hover,
 .hero-btn:focus {
@@ -169,7 +163,14 @@ address {
 /*? =========================FEATURE============================= */
 
 .feature {
-  padding-top: 120px;
+  padding: 120px 0;
+}
+.visually-hidden {
+  margin: -1px;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .feature-list {
   display: flex;
@@ -198,7 +199,7 @@ address {
 
 /*! =========================TEAM============================= */
 .team {
-  padding-top: 120px;
+  padding: 120px 0;
 }
 .team-container {
   background-color: var(--CLOUD, #f4f4fd);
@@ -228,7 +229,7 @@ address {
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
   width: 264px;
   width: calc((100% - 24px * 3) / 4);
-  padding: 0 0 32px 0;
+  padding: 32px 0;
 }
 .team-photo {
   margin-bottom: 32px;
@@ -305,10 +306,10 @@ address {
 /*? =========================FOOTER============================= */
 
 .footer {
+  padding: 100px 0;
 }
 .footer-container {
   background-color: var(--NAVY-BLUE, #2e2f42);
-  padding: 100px;
 }
 .footer-logo {
   color: var(--IRIS, #4d5ae5);
@@ -318,7 +319,8 @@ address {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-bottom: 17px;
+  margin-bottom: 16px;
+  display: inline-block;
 }
 .footer-logo-white {
   color: var(--CLOUD, #f4f4fd);
