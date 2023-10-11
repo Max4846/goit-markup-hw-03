@@ -62,11 +62,13 @@ address {
 .header {
   background: var(--WHITE, #fff);
   border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
-  padding: 24px 0;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .header-container {
   display: flex;
   align-items: center;
+  padding: 24px 0;
 }
 .header-navigation {
   display: flex;
@@ -209,7 +211,6 @@ address {
 }
 .team-container {
   background-color: var(--CLOUD, #f4f4fd);
-  
 }
 .team-title {
   color: var(--NAVY-BLUE, #2e2f42);
@@ -283,13 +284,10 @@ address {
   display: flex;
   flex-wrap: wrap;
   gap: 48px 24px;
-  
 }
 .portfolio-item {
   background: var(--WHITE, #fff);
   width: calc((100% - 24px * 2) / 3);
-  border: 1px solid var(--CORNFLOWER, #E7E9FC);
-  border: none;
 }
 .portfolio-photo {
   margin-bottom: 32px;
@@ -312,6 +310,8 @@ address {
 }
 .container-portfolio-progect-name {
   padding: 32px 16px;
+  border: 1px solid var(--CORNFLOWER, #e7e9fc);
+  border: none;
 }
 /** =============================================================== */
 
